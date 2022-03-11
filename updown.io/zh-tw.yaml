@@ -1,0 +1,51 @@
+zh-tw:
+  durations:
+    short:
+      hours: 小時
+      minutes: 分鐘
+      seconds: 秒
+  countries:
+    au: 澳洲
+    ca: 加拿大
+    de: 德國
+    fr: 法國
+    jp: 日本
+    sg: 新加坡
+    us: 美國
+  cities:
+    Roubaix: 盧貝
+    Los Angeles: 洛杉磯
+    Miami: 邁阿密
+    Montreal: 蒙特利爾
+    Frankfurt: 法蘭克福
+    Singapore: 新加坡
+    Tokyo: 東京
+    Sydney: 雪梨
+  status:
+    page:
+      title: "%{site} 的狀態頁面"
+      header: 狀態頁面
+    last_check: 最後檢查
+    not_checked: 這個網址還沒有被檢查過
+    rolling_uptime: 最近一個月的上線時間 (從 %{date} 開始)
+    last_hours:
+      one: 一小時前
+      other: 最近 %{count} 小時
+    last_months: 過去幾個月
+    na: N/A
+    uptime: 正常運行時間
+    timings:
+      including_latency: "(含延遲)"
+      total: '總時間:'
+      redirections: 重新導向
+      dns: 域名查詢
+      connection: 連接
+      tls: TLS交握
+      response: 回應時間
+    cal:
+      downtime: "%{duration} 持續離線"
+      no_downtime: 正常運行
+      incomplete_day: 當天只檢測到 %{percent}% 的數據
+      no_data: 沒有數據
+      lt15_downtime: "離線時間<15分鐘"
+      gt15_downtime: "離線時間>15分鐘"
